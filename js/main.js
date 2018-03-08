@@ -29,7 +29,7 @@ $('#nav').affix({
     $(window).load(function() {
         var $container = $('.portfolio-items');
         $container.isotope({
-            filter: 'none',
+            filter: '.succession',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',
